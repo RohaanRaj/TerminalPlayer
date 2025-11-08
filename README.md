@@ -46,8 +46,9 @@ For Windows based:
 
 The following are a few keybindings for navigating through the interface.
 
-- Arrows up/down or k/j for moving up and down.
-- Enter for selecting an Artist/Album/Song.
+- Arrow keys up/down or k/j for moving up and down.
+- "Enter" for selecting an Artist/Album/Song.
+- "p" for pause/play.
 - Pressing "q" on a song adds it to queue.
 - "b" takes you to the previous panel.
 - "n" plays the next song in the queue.
