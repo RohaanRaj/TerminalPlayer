@@ -1,3 +1,10 @@
+'''
+import os
+import sys
+dll_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "lib")
+os.environ["PATH"] = dll_dir + os.pathsep + os.environ["PATH"]
+'''
+
 from textual.app import App
 from textual.widgets import ListView
 from textual.containers import Vertical, Horizontal
