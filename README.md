@@ -22,7 +22,7 @@ python-mpv is a wrapper for mpv- The command line player used for music playback
 - Make the panels more informative.
 - Add a progress bar or an audio Visualizer in the now playing panel.
 - Few more CSS tweaks.
-- Thats all i have in mind for now.
+- Thats all I have in mind for now.
 
 ### USAGE :
 
@@ -31,7 +31,7 @@ For linux based systems (tested on Arch):
 1. Make sure you have mpv and the corresponding libmpv installed.
 2. All the packages in requirements.txt installed.
 3. Change the corresponding username, password, version, format and BaseUrl in app/backend.py based on your server.
-4. now run python main.py and the application should launch.
+4. now run ```python main.py``` and the application should launch.
 
 For Windows based:
 
