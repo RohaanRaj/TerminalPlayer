@@ -24,23 +24,24 @@ python-mpv is a wrapper for mpv - The command line player used for music playbac
 - Thats all I have in mind for now.
 
 ### USAGE :
+Make Sure to have python installed (obviously).  
+Now run the following command to install the requirements.  
+``` pip install -r /path/to/folder/TerminalPlayer-main/requirements.txt ```  
 
 For linux based systems (tested on Arch):
 
 1. Make sure you have mpv and the corresponding libmpv installed.
-2. All the packages in requirements.txt installed.
-3. Change the corresponding username, password, version, format and BaseUrl in app/backend.py based on your server.
-4. now run ```python app/main.py``` and the application should launch.
+2. Change the corresponding username, password, version, format and BaseUrl in app/backend.py based on your server.
+3. now run ```python app/main.py``` and the application should launch.
 
 For Windows based:
 
-1. All the packages in requirements.txt installed.
-2. Uncomment the first 4 lines in app/main.py.
-3. Change the corresponding username, password, version, format and BaseUrl in app/backend.py(expects string format) based on your server.
-4. Install libmpv.dll (needed for music playback) from [here](https://sourceforge.net/projects/mpv-player-windows/files/libmpv/) and download the latest version.
-5. Place the two libmpv.dll files (not include) in TerminalPlayer-main/app/lib/
-6. Open CommandPrompt/Windows Powershell and run ``` cd path/to/folder/TerminalPlayer-main/ ```
-7. Now run ``` python app/main.py ``` and the application will launch.
+1. Uncomment the first 4 lines in app/main.py.
+2. Change the corresponding username, password, version, format and BaseUrl in app/backend.py(expects string format) based on your server.
+3. Install libmpv.dll (needed for music playback) from [here](https://sourceforge.net/projects/mpv-player-windows/files/libmpv/) and download the latest version.
+4. Place the two libmpv.dll files (not include) in TerminalPlayer-main/app/lib/
+5. Open CommandPrompt/Windows Powershell and run ``` cd path/to/folder/TerminalPlayer-main/ ```
+6. Now run ``` python app/main.py ``` and the application will launch.
 
 ### INTERACTIVITY :
 
