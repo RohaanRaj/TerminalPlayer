@@ -1,0 +1,4 @@
+textual 
+requests
+python-mpv
+python-dotenv
