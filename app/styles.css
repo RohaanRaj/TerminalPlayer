@@ -1,0 +1,63 @@
+.box {
+    border: burlywood; 
+    content-align: center middle;
+    background: transparent;
+}
+
+
+#artists {
+    dock: left;
+    background: transparent;
+    border: round burlywood;
+    height: 100%;
+    width: 26%;
+    margin: 1 2;
+    scrollbar-visibility: hidden;
+    text-style: bold; 
+}
+
+
+
+.-highlight {
+    background: #3F704D;
+    color: #FAFAD2;
+}
+
+#playing {
+    margin: 1 1;
+    border: round burlywood;
+    column-span: 2;
+    height: 23%;
+    background: transparent;
+    scrollbar-visibility: hidden;
+}
+
+#albums {
+    background: transparent;
+    height: 100%;
+    border: round burlywood;
+    width: 40%;
+    text-overflow: ellipsis;
+    scrollbar-visibility: hidden;
+}
+
+#queue {
+    background: transparent;
+    height: 100%; 
+    border: round burlywood;
+    width: 60%;
+    scrollbar-visibility: hidden;
+
+}
+
+
+#songs {
+    background: transparent;
+    margin: 1 1;
+    height: 1fr;
+    border: round burlywood;
+
+}
+#songs ListView {
+    scrollbar-visibility: hidden;
+}
