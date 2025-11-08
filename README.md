@@ -40,8 +40,8 @@ For Windows based:
 3. Change the corresponding username, password, version, format and BaseUrl in app/backend.py(expects string format) based on your server.
 4. Install libmpv.dll (needed for music playback) from [here](https://sourceforge.net/projects/mpv-player-windows/files/libmpv/) and download the latest version.
 5. Place the two libmpv.dll files (not include) in TerminalPlayer-main/app/lib/
-6. Open CommandPrompt/Windows Powershell and --- cd path/to/folder/TerminalPlayer-main/ ---
-7. Now run --- python app/main.py --- and the application will launch.
+6. Open CommandPrompt/Windows Powershell and run ``` cd path/to/folder/TerminalPlayer-main/ ```
+7. Now run ``` python app/main.py ``` and the application will launch.
 
 ### INTERACTIVITY :
 
