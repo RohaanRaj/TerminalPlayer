@@ -31,7 +31,7 @@ For linux based systems (tested on Arch):
 1. Make sure you have mpv and the corresponding libmpv installed.
 2. All the packages in requirements.txt installed.
 3. Change the corresponding username, password, version, format and BaseUrl in app/backend.py based on your server.
-4. now run ```python main.py``` and the application should launch.
+4. now run ```python app/main.py``` and the application should launch.
 
 For Windows based:
 
