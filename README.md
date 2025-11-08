@@ -1,13 +1,12 @@
-Terminal Player is my first project (i will rename it later).
-Written in python Terminal Player is a terminal based music player that fetches data and plays music from Subsonic based servers.
+Terminal Player is my first project (i will rename it later).Written in python Terminal Player is a minimal terminal based client that plays music from Subsonic based servers.
 
 ### USER INTERFACE ###
 
 <img width="1921" height="1081" alt="2025-11-07-185841_hyprshot" src="https://github.com/user-attachments/assets/d0167722-9106-4345-a038-0bdabb90ee67" />
 
 
-It uses Textual a python module for handling User Interface.
-python-mpv is a wrapper for mpv- The command line player used for music playback.
+It uses Textual a python module for handling User Interface.  
+python-mpv is a wrapper for mpv - The command line player used for music playback.
 
 ### It currently does the following:
 
